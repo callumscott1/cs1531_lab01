@@ -3,5 +3,5 @@ sentence = ''
 for i in range(len(strings)):
     sentence += strings[i]
     sentence += " "
-print(sentence)
-print(' '.join(strings))
+print(sentence.rstrip())
+#print(' '.join(strings))
